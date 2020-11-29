@@ -8,3 +8,9 @@ body {
 main {
     margin: 2%;
 }
+
+#logo {
+    font-size:2em;
+    font-weight: 700;
+    color: #ff6978;
+}
