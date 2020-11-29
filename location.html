@@ -48,32 +48,43 @@
         <h1>Our Locations:</h1>
         <div id="map"></div>
     <script>
-            // Initialize and add the map
+        // initializing the map
         function initMap() {
-            // Coordinates of Pizza Time
-            const PizzaTime = { lat: 43.656606749228914, lng: -79.37994805430203 };
-            // Coordinates of Pizza Time 2
-            const PizzaTime2 = { lat: 43.6564048897528, lng: -79.3772122011595 };
-            // Coordinates of Pizza Time 3
-            const PizzaTime3 = { lat: 43.657231561929564, lng: -79.37847820381712 };
-            
             // map
-            const map = new google.maps.Map(document.getElementById("map"), {
+            const map = new google.maps.Map(document.getElementById("map"), 
+                {
                 zoom: 17,
-                center: { lat: 43.65680852453792, lng: -79.37889662842431 }, });
-            // Markers
-            const marker = new google.maps.Marker({
+                center: { lat: 43.65680852453792, lng: -79.37889662842431 }, 
+                }
+            );
+
+            // Coordinates of Pizza Time locations
+            const PizzaTime = { lat: 43.656606749228914, lng: -79.37994805430203 };
+            const PizzaTime2 = { lat: 43.6564048897528, lng: -79.3772122011595 };
+            const PizzaTime3 = { lat: 43.657231561929564, lng: -79.37847820381712 };
+
+            // Locations
+            const location1 = new google.maps.Marker(
+                {
                 position: PizzaTime,
                 map: map,
-                title: "Pizza Time", });
-            const marker2 = new google.maps.Marker({
+                title: "Pizza Time" 
+                }
+            );
+            const location2 = new google.maps.Marker(
+                {
                 position: PizzaTime2,
                 map: map,
-                title: "Pizza Time", });
-            const marker3 = new google.maps.Marker({
+                title: "Pizza Time" 
+                }
+            );
+            const location3 = new google.maps.Marker(
+                {
                 position: PizzaTime3,
                 map: map,
-                title: "Pizza Time", });
+                title: "Pizza Time" 
+                }
+            );
         }
     </script>
     </main>

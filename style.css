@@ -11,10 +11,8 @@ main {
     color: #ff6978;
     padding-left: 1.5%;
 }
-/* Set the size of the div element that contains the map */
+/* ID for map size */
 #map {
-    height: 400px;
-    /* The height is 400 pixels */
     width: 100%;
-    /* The width is the width of the web page */
+    height: 600px;
   }
