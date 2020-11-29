@@ -28,3 +28,11 @@ footer {
 .nav-item {
     padding-left: 25px;
 }
+
+.address {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
