@@ -51,3 +51,27 @@ footer {
     height: 410px;
     background-size: cover;
 }
+
+#pizza-header {
+    display: inline-block;
+    position: absolute;
+    
+    left: 0;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+#pizza-header img {
+    min-width: 50%;
+    width: 100%;
+    opacity: 0.75;
+}
+
+#container-header {
+    background-color: #8BC6EC; 
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    position: relative;
+    min-height: 300px;
+    overflow: hidden;
+}
