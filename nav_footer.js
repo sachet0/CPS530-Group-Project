@@ -1,6 +1,7 @@
-var navDiv = document.getElementById("navbar");
-if (navDiv) {
-    // var active = "/page3"; // location.pathname
+var navbar = document.getElementById("navbar");
+var footer = document.getElementById("footer");
+
+if (navbar) {
     var navHtml = `
     <!DOCTYPE html>
     <html lang="en">
@@ -32,7 +33,7 @@ if (navDiv) {
                     <a class="nav-link" href="about.html"> <i class="fas fa-address-card"></i> About Us </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="menu.html"> <i class="fas fa-pizza-slice"></i> Menu </a>
+                    <a class="nav-link" href="#"> <i class="fas fa-pizza-slice"></i> Menu </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="location.html"> <i class="fas fa-location-arrow"></i> Locations </a>
@@ -47,12 +48,27 @@ if (navDiv) {
         </div>
     </nav>
     `;
-    navDiv.innerHTML = navHtml;
-    //  document.querySelector(".active").scrollIntoView();
+    navbar.innerHTML = navHtml;
+}
 
-    var el = document.querySelector(".active")
-    navDiv.scroll({
-        top: el.offsetTop - 10,
-        behavior: 'smooth'
-    });
+if (footer) {
+    var footerHTML = `
+    <footer>
+    <div class="card text-white bg-dark rounded-0">
+        <div class="card-body">
+          <h3 class="card-title bold"><strong>Pizza Time!</strong></h3>
+          <address>
+              123 Address St, Suite 100<br>
+              Toronto, ON Canada<br>
+              Phone: (123) 456-7890<br>
+              Email: contact@pizzatime.com
+            </address>
+        </div>
+        <div class="card-footer text-muted text-center">
+          Copyright &copy; Pizza Time Inc. 2020
+        </div>
+      </div>
+    </footer>
+    `;
+    footer.innerHTML = footerHTML;
 }
