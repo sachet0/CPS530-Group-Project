@@ -53,9 +53,9 @@ if (navbar) {
 
 if (footer) {
     var footerHTML = `
-    <footer>
-    <div class="card text-white bg-dark rounded-0">
-        <div class="card-body">
+    <footer id="footer">
+    <div class="card text-white-50 pt-3 rounded-0" style="background-color: #222222">
+        <div class="card-body pl-5">
           <h3 class="card-title bold"><strong>Pizza Time!</strong></h3>
           <address>
               123 Address St, Suite 100<br>
