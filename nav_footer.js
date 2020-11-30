@@ -33,7 +33,7 @@ if (navbar) {
                     <a class="nav-link" href="about.html"> <i class="fas fa-address-card"></i> About Us </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> <i class="fas fa-pizza-slice"></i> Menu </a>
+                    <a class="nav-link" href="menu.html"> <i class="fas fa-pizza-slice"></i> Menu </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="location.html"> <i class="fas fa-location-arrow"></i> Locations </a>
