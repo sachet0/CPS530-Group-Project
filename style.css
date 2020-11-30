@@ -7,9 +7,11 @@ main {
     margin: 2%;
 }
 #backgroundjumobtron{
-    background-image: url(https://i.redd.it/5vltlvdi2dqy.jpg);
+    background-image: url(https://images2.alphacoders.com/941/941112.jpg);
     background-repeat: no-repeat, repeat;
-    opacity: 0.85;
+    opacity: 0.75;
+    background-attachment: fixed;
+    background-position: right;
 }
 
 #logo {
