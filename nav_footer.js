@@ -23,7 +23,7 @@ if (navbar) {
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" id="logo" href="index.html">Pizza Time</a>
+        <a class="navbar-brand" id="logo" href="index.php">Pizza Time</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,7 +33,7 @@ if (navbar) {
                     <a class="nav-link" href="about.html"> <i class="fas fa-address-card"></i> About Us </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="menu.html"> <i class="fas fa-pizza-slice"></i> Menu </a>
+                    <a class="nav-link" href="menu.php"> <i class="fas fa-pizza-slice"></i> Menu </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="location.html"> <i class="fas fa-location-arrow"></i> Locations </a>
