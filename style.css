@@ -6,6 +6,12 @@ body {
 main {
     margin: 2%;
 }
+#backgroundjumobtron{
+    background-image: url(https://i.redd.it/5vltlvdi2dqy.jpg);
+    background-repeat: no-repeat, repeat;
+    opacity: 0.6;
+}
+
 #logo {
     font-family: Bebas Neue;
     font-size: 45px;
