@@ -55,17 +55,16 @@ footer {
 #pizza-header {
     display: inline-block;
     position: absolute;
-    
-    left: 0;
+    min-width: 50%;
     width: 100%;
     align-content: center;
     text-align: center;
 }
 
 #pizza-header img {
-    min-width: 50%;
-    width: 100%;
+    width: 70%;
     opacity: 0.75;
+    image-rendering: crisp-edges;
 }
 
 #container-header {
