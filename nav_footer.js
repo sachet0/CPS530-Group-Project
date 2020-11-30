@@ -68,7 +68,7 @@ if (footer) {
                 <div class="card-body">
                     <h3 class="card-title bold"><strong>About Us</strong></h3>
                     <address>
-                        Since 2001<br>
+                        Since 2002<br>
                         Quality<br>
                         Contact Us<br>
                         FAQ
@@ -77,7 +77,7 @@ if (footer) {
                 <div class="card-body">
                     <h3 class="card-title bold"><strong>About Us</strong></h3>
                     <address>
-                        Since 2001<br>
+                        Since 2002<br>
                         Quality<br>
                         Contact Us<br>
                         FAQ
