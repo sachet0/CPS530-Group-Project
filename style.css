@@ -9,7 +9,7 @@ main {
 #backgroundjumobtron{
     background-image: url(https://i.redd.it/5vltlvdi2dqy.jpg);
     background-repeat: no-repeat, repeat;
-    opacity: 0.6;
+    opacity: 0.85;
 }
 
 #logo {
