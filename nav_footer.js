@@ -54,20 +54,40 @@ if (navbar) {
 if (footer) {
     var footerHTML = `
     <footer id="footer">
-    <div class="card text-white-50 pt-3 rounded-0" style="background-color: #222222">
-        <div class="card-body pl-5">
-          <h3 class="card-title bold"><strong>Pizza Time!</strong></h3>
-          <address>
-              123 Address St, Suite 100<br>
-              Toronto, ON Canada<br>
-              Phone: (123) 456-7890<br>
-              Email: contact@pizzatime.com
-            </address>
+        <div class="card text-white-50 pt-3 rounded-0" style="background-color: #222222">
+            <div class="card-deck row-cols-3 container-fluid pl-5">
+                <div class="card-body">
+                    <h3 class="card-title bold"><strong>Company</strong></h3>
+                    <address>
+                        123 Address St, Suite 100<br>
+                        Toronto, ON Canada<br>
+                        Phone: (123) 456-7890<br>
+                        Email: contact@pizzatime.com
+                    </address>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title bold"><strong>About Us</strong></h3>
+                    <address>
+                        Since 2001<br>
+                        Quality<br>
+                        Contact Us<br>
+                        FAQ
+                    </address>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title bold"><strong>About Us</strong></h3>
+                    <address>
+                        Since 2001<br>
+                        Quality<br>
+                        Contact Us<br>
+                        FAQ
+                    </address>
+                </div>
+            </div>
+            <div class="card-footer text-muted text-center" style="background-color: #222222;">
+                Copyright &copy; Pizza Time Inc. 2020
+            </div>
         </div>
-        <div class="card-footer text-muted text-center">
-          Copyright &copy; Pizza Time Inc. 2020
-        </div>
-      </div>
     </footer>
     `;
     footer.innerHTML = footerHTML;
