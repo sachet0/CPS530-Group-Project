@@ -75,12 +75,12 @@ if (footer) {
                     </address>
                 </div>
                 <div class="card-body">
-                    <h3 class="card-title bold"><strong>About Us</strong></h3>
+                    <h3 class="card-title bold"><strong>Reach Us</strong></h3>
                     <address>
-                        Since 2002<br>
-                        Quality<br>
-                        Contact Us<br>
-                        FAQ
+                        <i class="fab fa-facebook-square" aria-hidden="true"></i>&nbsp; Facebook<br>
+                        <i class="fab fa-twitter-square"></i>&nbsp; Twitter<br>
+                        <i class="fab fa-instagram"></i>&nbsp; Instagram<br>
+                        <i class="fab fa-snapchat-ghost"></i>&nbsp; Snapchat<br>
                     </address>
                 </div>
             </div>
