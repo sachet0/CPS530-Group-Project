@@ -86,3 +86,7 @@ h4 {
     color: #ff6978;
     font-weight: 600;
 }
+
+td {
+    text-align: center;
+}
