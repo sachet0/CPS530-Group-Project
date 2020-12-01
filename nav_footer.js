@@ -57,30 +57,30 @@ if (footer) {
         <div class="card text-center text-white-50 pt-3 rounded-0" style="background-color: #222222">
             <div class="card-deck row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 pl-4 mr-0">
                 <div class="card-body">
-                    <h3 class="card-title bold"><strong>Company</strong></h3>
+                    <h3 class="card-title bold"><strong>Company Offices</strong></h3>
                     <address>
-                        123 Address St, Suite 100<br>
+                        223 College St, Suite 23<br>
                         Toronto, ON Canada<br>
                         Phone: (123) 456-7890<br>
                         Email: contact@pizzatime.com
                     </address>
                 </div>
                 <div class="card-body">
-                    <h3 class="card-title bold"><strong>About Us</strong></h3>
+                    <h3 class="card-title bold"><strong>What We Do</strong></h3>
                     <address>
-                        Since 2002<br>
-                        Quality<br>
-                        Contact Us<br>
-                        FAQ
+                        <a href='about.html' class="link">Since 2002<br></a>
+                        <a href='about.html' class="link">Quality<br></a>
+                        <a href='contact.html' class="link">Contact Us<br></a>
+                        <a href='contact.html' class="link">FAQ</a>
                     </address>
                 </div>
                 <div class="card-body">
                     <h3 class="card-title bold"><strong>Reach Us</strong></h3>
                     <address>
-                        <i class="fab fa-facebook-square" aria-hidden="true"></i>&nbsp; Facebook<br>
-                        <i class="fab fa-twitter-square"></i>&nbsp; Twitter<br>
-                        <i class="fab fa-instagram"></i>&nbsp; Instagram<br>
-                        <i class="fab fa-snapchat-ghost"></i>&nbsp; Snapchat<br>
+                        <a href='' class="link"><i class="fab fa-facebook-square" aria-hidden="true"></i>&nbsp; Facebook<br>
+                        <a href='' class="link"><i class="fab fa-twitter-square"></i>&nbsp; Twitter<br></a>
+                        <a href='' class="link"><i class="fab fa-instagram"></i>&nbsp; Instagram<br></a>
+                        <a href='' class="link"><i class="fab fa-snapchat-ghost"></i>&nbsp; Snapchat<br></a>
                     </address>
                 </div>
             </div>
