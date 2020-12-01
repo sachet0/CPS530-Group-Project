@@ -31,7 +31,7 @@
     <div class="row">
 
     <?php
-        $connection = new mysqli("localhost", "root", "", "menu");
+        $connection = new mysqli("35.239.105.106", "root", "yPhnJvAhuHOzptuF", "menu");
         if ($connection->connect_errno) {
             printf("Connection Lost");
             exit(0);
