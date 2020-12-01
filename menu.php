@@ -19,7 +19,7 @@
     
     <div id="container-header" class="container-lg-1">
         <div class="container pb-1 pt-2">
-            <h1 style="text-align: center; color: #222222; font-size: 40px; font-weight: 550;">Menu</h1>
+            <h1 style="text-align: center; color: #ff6978; font-size: 35px; font-weight: 550;">Menu</h1>
         </div>
         <div id="pizza-header">
             <img src="https://www.pngkit.com/png/full/856-8564626_cheese-pizza-png-transparent-cheese-pizza.png">
@@ -27,7 +27,6 @@
     </div>
 
     <main class="container pt-5">
-    <h2>Menu:</h2>
     <div class="row">
 
     <?php

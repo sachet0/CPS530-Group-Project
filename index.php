@@ -52,8 +52,8 @@
         <div class="jumbotron text-light" id="backgroundjumobtron">
             <div class="container">
             <h1 class="display-4">Fresh Ingredients</h1>
-            <p class="lead">Our products are made with fresh ingredients purchased from local farmers.</p>
-            <hr class="my-4">
+            <p class="lead">Our products are made with garden-fresh ingredients purchased from local farms.</p>
+            <hr class="my-3">
             <p>We support local farmers and local business during COVID</p>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
             </div>
@@ -62,7 +62,7 @@
         <br>
         <!-- Menus -->
         <div class="container-fluid">
-            <h2>Popular Items:</h2>
+            <h2>Popular Items</h2>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
                     <div class="card text-center">
