@@ -57,6 +57,13 @@ footer {
         margin-left: auto !important;
         margin-right: auto !important; 
     }
+    .address {
+        font-size: 23px;
+        text-align: center;
+        font-weight: 600;
+        margin-left: auto !important;
+        margin-right: auto !important; 
+    }
   }
 
 #pizza-header {
