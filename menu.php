@@ -32,6 +32,7 @@
 
     <?php
         $connection = new mysqli("localhost", "sdawadi", "Erbyenta", "sdawadi");
+        //$connection = new mysqli("localhost", "dgzhou", "GejAdkey", "dgzhou");
         if ($connection->connect_errno) {
             printf("Connection Lost");
             exit(0);
