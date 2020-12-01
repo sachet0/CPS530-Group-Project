@@ -64,18 +64,7 @@
         <div class="container-fluid">
             <h2>Popular Items</h2>
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
-                    <div class="card text-center">
-                        <img src="https://storage.pizzapizza.ca/phx2/ppl_images/products/en/2x/SCBGT.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Pepperoni</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-dark">Add to cart</a>
-                        </div>
-                    </div>
-                </div>
-    
+                
                 <?php
                     $connection = new mysqli("localhost", "sdawadi", "Erbyenta", "sdawadi");
                     //$connection = new mysqli("localhost", "dgzhou", "GejAdkey", "dgzhou");
@@ -86,22 +75,24 @@
                     $sql = "SELECT * from menu";
                     $result = $connection->query($sql);
                     if ($result->num_rows > 0) {
-                    while ($row = mysqli_fetch_assoc($result)) {
-                    
-                        printf('
-                        <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
-                            <div class="card text-center">
-                                <img src="%s" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">%s</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card\'s content.</p>
-                                    <p class="card-text">$%s</p>
-                                    <a href="#" class="btn btn-dark">Add to cart</a>
+                        $i = 1;
+                        while ($row = mysqli_fetch_assoc($result) and $i < 4) {
+                            
+                            printf('
+                            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+                                <div class="card text-center">
+                                    <img src="%s" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">%s</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                            card\'s content.</p>
+                                        <p class="card-text">$%s</p>
+                                        <a href="#" class="btn btn-dark">Add to cart</a>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>', $row['url'], $row['name'], $row['price']);
-                    }
+                            </div>', $row['url'], $row['name'], $row['price']);
+                            $i++;
+                        }
                     $result->close(); 
                 } 
                 ?>
