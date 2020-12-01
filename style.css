@@ -40,7 +40,7 @@ footer {
 .address {
     font-size: 23px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 #ben {
@@ -80,4 +80,9 @@ footer {
     position: relative;
     min-height: 300px;
     overflow: hidden;
+}
+
+h4 {
+    color: #ff6978;
+    font-weight: 600;
 }

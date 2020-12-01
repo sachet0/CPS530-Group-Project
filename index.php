@@ -77,7 +77,8 @@
                 </div>
     
                 <?php
-                    $connection = new mysqli("35.239.105.106", "root", "yPhnJvAhuHOzptuF", "menu");
+                    $connection = new mysqli("localhost", "sdawadi", "Erbyenta", "sdawadi");
+                    //$connection = new mysqli("localhost", "dgzhou", "GejAdkey", "dgzhou");
                     if ($connection->connect_errno) {
                         printf("Connection Lost");
                         exit(0);
