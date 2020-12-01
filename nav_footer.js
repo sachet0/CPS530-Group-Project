@@ -54,7 +54,7 @@ if (navbar) {
 if (footer) {
     var footerHTML = `
     <footer id="footer">
-        <div class="card text-white-50 pt-3 rounded-0" style="background-color: #222222">
+        <div class="card text-center text-white-50 pt-3 rounded-0" style="background-color: #222222">
             <div class="card-deck row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 pl-4 mr-0">
                 <div class="card-body">
                     <h3 class="card-title bold"><strong>Company</strong></h3>
