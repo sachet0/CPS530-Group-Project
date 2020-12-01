@@ -42,7 +42,7 @@ if (navbar) {
                     <a class="nav-link" href="contact.html"><i class="fas fa-phone"></i> Contact </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i> Cart </a>
+                    <a class="nav-link" href="cart.php"><i class="fas fa-shopping-cart"></i> Cart </a>
                 </li>
             </ul>
         </div>
