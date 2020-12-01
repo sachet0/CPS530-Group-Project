@@ -64,45 +64,37 @@
         <div class="container-fluid">
             <h2>Popular Items:</h2>
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
-                    <div class="card text-center">
-                        <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Pepperoni</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-dark">Add to cart</a>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
-                    <div class="card text-center">
-                        <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Hawaiian</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-dark">Add to cart</a>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
-                    <div class="card text-center">
-                        <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Deluxe</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-dark">Add to cart</a>
-                        </div>
-                    </div>
-                </div>
-    
+                <?php
+                    $connection = new mysqli("localhost", "root", "", "menu");
+                    if ($connection->connect_errno) {
+                        printf("Connection Lost");
+                        exit(0);
+                    }
+                    $sql = "SELECT * from menu";
+                    $result = $connection->query($sql);
+                    if ($result->num_rows > 0) {
+                    while ($row = mysqli_fetch_assoc($result)) {
+                    
+                        printf('
+                        <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+                            <div class="card text-center">
+                                <img src="%s" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">%s</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                        card\'s content.</p>
+                                    <p class="card-text">$%s</p>
+                                    <a href="#" class="btn btn-dark">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>', $row['url'], $row['name'], $row['price']);
+                    }
+                    $result->close(); 
+                } 
+                ?>
             </div>
-    
         </div>
+
     </main>
 
     <div id="footer"></div>
@@ -111,5 +103,4 @@
  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
-
 </html>

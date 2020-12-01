@@ -17,21 +17,28 @@
     <!-- navbar loaded by js -->
     <div id="navbar"></div>
     
+    <div id="container-header" class="container-lg-1">
+        <div class="container pb-1 pt-2">
+            <h1 style="text-align: center; color: #222222; font-size: 40px; font-weight: 550;">Menu</h1>
+        </div>
+        <div id="pizza-header">
+            <img src="https://www.pngkit.com/png/full/856-8564626_cheese-pizza-png-transparent-cheese-pizza.png">
+        </div>
+    </div>
+
     <main class="container pt-5">
     <h2>Menu:</h2>
     <div class="row">
 
     <?php
-        $connection = new mysqli("localhost", "sdawadi", "Erbyenta", "sdawadi");
+        $connection = new mysqli("localhost", "root", "", "menu");
         if ($connection->connect_errno) {
             printf("Connection Lost");
-            // exit(0);
+            exit(0);
         }
         $sql = "SELECT * from menu";
         $result = $connection->query($sql);
-
-        if ($result > 0) {
-
+        if ($result->num_rows > 0) {
             while ($row = mysqli_fetch_assoc($result)) {
                 printf('
                     <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
@@ -43,11 +50,11 @@
                                 <a href="#" class="btn btn-dark">Add to cart</a>
                             </div>
                         </div>
-                    </div>', $row['Url'], $row['NAME'], $row['Price']);
+                    </div>', $row['url'], $row['name'], $row['price']);
             }
             echo '
             </div>';
-            // $result->close();
+            $result->close();
         }
         // $mysqli->close();
     ?> 
