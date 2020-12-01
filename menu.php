@@ -19,7 +19,7 @@
     
     <div id="container-header" class="container-lg-1">
         <div class="container pb-1 pt-2">
-            <h1 style="text-align: center; color: #ff6978; font-size: 35px; font-weight: 550;">Menu</h1>
+            <h1 style="text-align: center; color: #222222; font-size: 40px; font-weight: 550;">Menu</h1>
         </div>
         <div id="pizza-header">
             <img src="https://www.pngkit.com/png/full/856-8564626_cheese-pizza-png-transparent-cheese-pizza.png">
@@ -30,7 +30,8 @@
     <div class="row">
 
     <?php
-        $connection = new mysqli("localhost", "sdawadi", "Erbyenta", "sdawadi");
+        $connection = new mysqli("35.239.105.106", "root", "yPhnJvAhuHOzptuF", "menu");
+        // $connection = new mysqli("localhost", "sdawadi", "Erbyenta", "sdawadi");
         //$connection = new mysqli("localhost", "dgzhou", "GejAdkey", "dgzhou");
         if ($connection->connect_errno) {
             printf("Connection Lost");
