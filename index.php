@@ -29,13 +29,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active" >
-                  <img src="img/img1.bmp" class="d-block w-100 img-fluid" alt="...">
+                  <img src="https://i.imgur.com/FNclzkp.png" class="d-block w-100 img-fluid" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/img2.bmp" class="d-block w-100 img-fluid" alt="...">
+                <img src="https://i.imgur.com/xn9KQ1h.png" class="d-block w-100 img-fluid" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/img3.bmp" class="d-block w-100 img-fluid" alt="...">
+                <img src="https://i.imgur.com/Ml92Nuq.png" class="d-block w-100 img-fluid" alt="...">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
