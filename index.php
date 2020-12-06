@@ -55,7 +55,7 @@
             <p class="lead">Our products are made with garden-fresh ingredients purchased from local farms.</p>
             <hr class="my-3">
             <p>We support local farmers and local business during COVID</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <a class="btn btn-primary btn-lg" href="about.html" role="button">Learn more</a>
             </div>
         </div>
     
