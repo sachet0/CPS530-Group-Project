@@ -70,7 +70,7 @@ if (footer) {
                     <address>
                         <a href='about.html' class="link">Since 2002<br></a>
                         <a href='about.html' class="link">Quality<br></a>
-                        <a href='contact.html' class="link">Contact Us<br></a>
+                        <a href='careers.html' class="link">Careers<br></a>
                         <a href='contact.html' class="link">FAQ</a>
                     </address>
                 </div>
