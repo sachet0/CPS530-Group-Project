@@ -85,13 +85,12 @@
                                     <img src="%s" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">%s</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                            card\'s content.</p>
+                                        <p class="card-text">%s</p>
                                         <p class="card-text">$%s</p>
                                         <a href="#" class="btn btn-dark">Add to cart</a>
                                     </div>
                                 </div>
-                            </div>', $row['url'], $row['name'], $row['price']);
+                            </div>', $row['url'], $row['desc'], $row['name'], $row['price']);
                             $i++;
                         }
                     $result->close(); 
