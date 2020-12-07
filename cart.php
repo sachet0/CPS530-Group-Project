@@ -9,6 +9,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Font awesome css for the icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <link href="style.css" rel="stylesheet">
     <title>Cart</title>
@@ -17,9 +18,10 @@
 <body>
     <!-- navbar loaded by js -->
     <div id="navbar"></div>
-    <script src="nav_footer.js"></script>
+
     <main class="container">
         <h1>Your Order:</h1>
+        <!-- Bootstrap table used -->
         <div class="table-responsive">
             <table class="table">
                 <thead>
@@ -93,9 +95,12 @@
         ?> -->
     </main>
 
+    <!-- footer loaded by nav_footer.js -->
     <div id="footer" style="margin-top: 50px;"></div>
+    <!-- the script the load the nav and footer above. -->
     <script src="nav_footer.js"></script>
 
+<!-- for jquery and other js bootstrap scripts -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 </script>

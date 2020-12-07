@@ -1,6 +1,8 @@
+// Get the navbar and footer element by their id
 var navbar = document.getElementById("navbar");
 var footer = document.getElementById("footer");
 
+// To load the navigation bar section
 if (navbar) {
     var navHtml = `
     <!DOCTYPE html>
@@ -51,6 +53,7 @@ if (navbar) {
     navbar.innerHTML = navHtml;
 }
 
+// To load the footer section
 if (footer) {
     var footerHTML = `
     <footer id="footer">
