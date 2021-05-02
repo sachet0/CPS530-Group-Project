@@ -80,7 +80,7 @@ if (footer) {
                 <div class="card-body">
                     <h3 class="card-title bold"><strong>Reach Us</strong></h3>
                     <address>
-                        <a href='' class="link"><i class="fab fa-facebook-square" aria-hidden="true"></i>&nbsp; Facebook<br>
+                        <a href='' class="link"><i class="fab fa-facebook-square" aria-hidden="true"></i>&nbsp; Facebook<br></a>
                         <a href='' class="link"><i class="fab fa-twitter-square"></i>&nbsp; Twitter<br></a>
                         <a href='' class="link"><i class="fab fa-instagram"></i>&nbsp; Instagram<br></a>
                         <a href='' class="link"><i class="fab fa-snapchat-ghost"></i>&nbsp; Snapchat<br></a>
